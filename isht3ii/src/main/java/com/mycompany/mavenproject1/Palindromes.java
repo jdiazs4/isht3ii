@@ -11,7 +11,7 @@ package com.mycompany.mavenproject1;
  */
 public class Palindromes {
     public static void main(String args[]){
-        String word = null;
+        String word = null; 
         boolean resultado= false;
         
         //EJEMPLO 1 - PALABRAS
