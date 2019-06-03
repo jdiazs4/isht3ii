@@ -14,12 +14,14 @@ public class Palindromes {
         
     }
     
-    public boolean evaluate(String word) {
+    public static boolean evaluate(String word) {
     if (word == null) 
       return false;
     
     boolean result = true;
+    word = word.replace(" ", "");
     int length = word.length();
+    
     
     for (int i = 0; i < length / 2; i++) {
       if (word.charAt(i) != word.charAt(length - 1 - i)) {
